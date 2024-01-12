@@ -3,6 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
+        "prebuild": "find scripts -type f -exec chmod +x {} \\;",
         "build": "vite build"
     },
     "devDependencies": {
