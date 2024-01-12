@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo "pre build"
+exit 0
